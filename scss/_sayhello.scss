@@ -1,0 +1,88 @@
+/*SAYHELLO*/
+.sayhello {
+    background-image: url(../img/jpeg/PhotoBackground_footer.jpg);
+    height: 800px;
+}
+.sayhello__wrapper {
+    width: 75%;
+    margin: 0 auto;
+    height: 100%;
+    padding-top: 7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+.sayhello__title {
+    text-transform: uppercase;
+    font-size: 2.34em;
+    margin-bottom: 2rem;
+    color: #fff;
+    span {
+        color: $orange;
+    }
+}
+.sayhello__text {
+    font-size: 1.1em;
+    max-width: 30rem;
+    font-weight: 400;
+    line-height: 2rem;
+    text-align: center;
+    color: #fff;
+}
+.sayhello__form{
+    width: 100%;
+    form {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 5fr 1fr;
+        grid-gap: 1rem;    
+    }
+}
+.form__hello__email {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    padding: 1.34rem;
+    border-radius: 10px;
+    &::placeholder {
+        color:#000;
+    }
+}
+.form__hello__subject {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    border-radius: 10px;
+    padding: 1.34rem;
+    &::placeholder{
+        color:#000;
+    }
+}
+.form__hello__textarea {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    resize: none;
+    border-radius: 10px;
+    padding: 1.3rem;
+    font-family: inherit;
+    font-size: 1.1em;
+    &::placeholder {        
+        color:#000;
+    }
+}
+.form__hello__button {
+    background-color: $orange;
+    color: #fff;
+    font-size: 1.1em;
+    font-weight: 600;    
+    max-width: 60%;
+    border-radius: 10px;
+}
+.socials {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+/*SAYHELLO*/

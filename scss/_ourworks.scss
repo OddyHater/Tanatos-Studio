@@ -1,0 +1,50 @@
+/*OUR WORKS*/
+.ourworks {
+    margin-bottom: 6rem; 
+}
+.ourworks__wraper {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ourworks__title {
+    text-transform: uppercase;
+    font-size: 2.34em;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    span {
+        color: $orange;
+    }
+}
+.ourworks__text {
+    max-width: 30rem;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.1em;
+    line-height: 2rem;
+    color: $gray_color;
+    margin-bottom: 7rem;
+}
+.ourworks__gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+    margin-bottom: 6.64rem;
+}
+.ourworks__gallery__item {
+}
+
+.ourworks__button { 
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.1em;
+    font-weight: 600; 
+    text-decoration: none;
+    color: #3b434c;
+    border: 1px #c4c6c9 solid;  
+    border-radius: 10px;
+    padding: 1.34rem 2rem;
+}
+/*OUR WORKS*/

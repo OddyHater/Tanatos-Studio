@@ -1,26 +1,33 @@
 @import "_vars";
 
 /*NAVIGATION*/
-header {
+header {    
     background-image: url(../img/jpeg/PhotoBackground.jpg);
-    height: 800px;    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 .header__wraper {
     max-width: 1140px;
     margin: 0 auto;
+    padding: 0 1rem;
     padding-top: 55px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 nav {
     display: flex;
     justify-content: space-between;
+    width: 100%;
 }
 .nav__logo {
     padding-left: 1em;
 }     
 .nav__button {
     position: relative;
-    right: 10px;
-    top: 10px;
+    right: 0;
+    top: 0;
     width: 40px;
     height: 25px;
     span {
@@ -55,23 +62,31 @@ nav {
 }
 .nav__menu {
     position: fixed;
-    display: none;
-    padding-top: 10rem;   
+    display: none;     
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     z-index: 100;
     background-color: #3b434cf1;
-    transition: transform 0.5s;       
+    transition: transform 0.5s; 
+    overflow: auto;        
+}
+.menu__wraper {
+    position: relative;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 7rem 1rem;
 }
 .nav__list {
-    display: flex;    
+    display: flex;
+    height: 100vh;  
     list-style-type: none;
     flex-direction: column;
     justify-content: start;
     align-items: center;
-    gap: 3rem;    
+    gap: 3rem; 
+     
     a {
         color: #fff;
         text-decoration: none;
@@ -89,10 +104,32 @@ nav {
 .nav__menu.active {
     display: block;
 }
+.arr__border {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    border: 2px #fff solid;
+    border-radius: 50%;
+    margin-bottom: 3rem;   
+}
+.arrow {
+    position: absolute;
+    top: 6px;
+    left: 8px;
+    width: 6px;
+    height: 6px;
+    border-top: 2px solid #fff;
+    border-right: 2px solid #fff;    
+}
+.arrow__bottom {
+    transform: rotate(135deg);
+}   
 .close {
     position: absolute;
-    right: 14rem;
-    top: 2rem;
+    right: 20px;
+    top: 50px;
     width: 32px;
     height: 32px;
     &::after{
@@ -105,7 +142,7 @@ nav {
 .close:before, .close:after {
     position: absolute;
     left: 15px;
-    content: ' ';
+    content: '';
     height: 35px;
     width: 2px;
     background-color: #fff;
@@ -120,7 +157,7 @@ nav {
 .slider__title {
     color: #fff;
     text-transform: uppercase;
-    margin-bottom: 2.66rem;
+    margin-bottom: 2rem;
     span {
         color: $orange
     }
@@ -137,7 +174,8 @@ nav {
 .slider__buttons {
     display: flex;
     justify-content: center;
-    gap: 2rem;        
+    gap: 2rem;
+    margin-bottom: 12rem;       
     a {
         color: #fff;
         text-decoration: none;

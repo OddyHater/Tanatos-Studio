@@ -3,9 +3,13 @@
 body {
     font-size: 15px;
 }
+html {
+    scroll-behavior: smooth;
+}
 @import "_header";
 @import "_services";
 @import "_form";
 @import "_ourworks";
 @import "_sayhello";
 @import "_footer";
+@import "_media"

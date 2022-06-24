@@ -5,6 +5,7 @@
 .ourworks__wraper {
     max-width: 1140px;
     margin: 0 auto;
+    padding: 0 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -29,11 +30,15 @@
 }
 .ourworks__gallery {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, auto);
     grid-gap: 2rem;
     margin-bottom: 6.64rem;
 }
 .ourworks__gallery__item {
+    img {
+        width: 100%;
+        height: 100%;
+    }
 }
 
 .ourworks__button { 

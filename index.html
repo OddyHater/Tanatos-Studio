@@ -6,7 +6,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="scss/main.scss">
+    <link rel="stylesheet" href="css/main.css">
     <title>Landing test</title>
 </head>
 <body>    
@@ -19,44 +19,46 @@
                     <div class="nav__button">                                 
                         <span></span>                     
                     </div>                                 
-                <div class="nav__menu">
-                    <span class="close"></span>                                    
-                    <ul class="nav__list">
-                        <li><a href="#" class="nav__link">Home</a></li>
-                        <li><a href="#" class="nav__link">About us</a></li>
-                        <li><a href="#" class="nav__link">Services</a></li>
-                        <li><a href="#" class="nav__link">Our works</a></li>
-                        <li><a href="#" class="nav__link">Contact</a></li>
-                        <li>
-                            <div class="socials"> <!--Изменить класс, уменьшить размеры иконок-->  
-                                <div class="fb">
-                                    <a href="#">
-                                        <img src="img/svg/fb.png" alt="facebook">
-                                    </a>
-                                </div>
-                                <div class="twitter">
-                                    <a href="#">
-                                        <img src="img/svg/twitter.png" alt="twitter">
-                                    </a>
-                                </div>
-                                <div class="google">
-                                    <a href="#">
-                                        <img src="img/svg/google.png" alt="google plus">
-                                    </a>
-                                </div>
-                                <div class="ball">
-                                    <a href="#">
-                                        <img src="img/svg/ball.png" alt="dribble">
-                                    </a>
-                                </div>
-                                <div class="be">
-                                    <a href="#">
-                                        <img src="./img/svg/be.png" alt="behance">
-                                    </a>
-                                </div> 
-                            </div>                          
-                        </li>                      
-                    </ul>          
+                <div class="nav__menu">                                                        
+                    <div class="menu__wraper">
+                        <span class="close"></span>
+                        <ul class="nav__list">
+                            <li><a href="#" class="nav__link">Home</a></li>
+                            <li><a href="#" class="nav__link">About us</a></li>
+                            <li><a href="#" class="nav__link">Services</a></li>
+                            <li><a href="#" class="nav__link">Our works</a></li>
+                            <li><a href="#" class="nav__link">Contact</a></li>
+                            <li>
+                                <div class="socials"> <!--Изменить класс, уменьшить размеры иконок-->  
+                                    <div class="fb">
+                                        <a href="#">
+                                            <img src="img/svg/fb.png" alt="facebook">
+                                        </a>
+                                    </div>
+                                    <div class="twitter">
+                                        <a href="#">
+                                            <img src="img/svg/twitter.png" alt="twitter">
+                                        </a>
+                                    </div>
+                                    <div class="google">
+                                        <a href="#">
+                                            <img src="img/svg/google.png" alt="google plus">
+                                        </a>
+                                    </div>
+                                    <div class="ball">
+                                        <a href="#">
+                                            <img src="img/svg/ball.png" alt="dribble">
+                                        </a>
+                                    </div>
+                                    <div class="be">
+                                        <a href="#">
+                                            <img src="./img/svg/be.png" alt="behance">
+                                        </a>
+                                    </div> 
+                                </div>                          
+                            </li>                      
+                        </ul> 
+                    </div>         
                 </div>
             </nav>
             <div class="slider">
@@ -69,10 +71,13 @@
                     <a href="#">Our works</a>
                 </div>            
             </div>
+            <div class="arr__border">
+                <a href="#services" class="arrow arrow__bottom"></a>
+            </div>
         </div>        
     </header>
     <main>        
-        <div class="services">
+        <div class="services" id="services">
             <div class="servises__wraper">
                 <div class="servises__item print">
                     <div class="servises__item__img">

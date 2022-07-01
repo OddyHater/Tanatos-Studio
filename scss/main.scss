@@ -2,9 +2,13 @@
 @import "_vars";
 body {
     font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
 }
 html {
     scroll-behavior: smooth;
+}
+.orange {
+    color: $orange
 }
 @import "_header";
 @import "_services";

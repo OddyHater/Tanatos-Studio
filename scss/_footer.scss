@@ -1,19 +1,20 @@
 footer {
     background-color: #3b434c;
     border-top: 2px #9da1a6 solid;
-    padding: 0 2rem;
   }
-  .footer__wraper {
-    font-family: 'Open Sans', sans-serif;
-    max-width: 1140px;
-    margin: 0 auto;
-    height: 9rem;
+.footer__wraper {  
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 0rem;
+  height: 9rem;  
+  padding-top: 2.4rem;
+  .footer__copy {
+    font-family: 'Montserrat', sans-serif;
     color:#fff;  
     text-transform: uppercase;  
-    padding-top: 3rem;
-    a {
-        font-size: 12em;
-    }
+    font-size: 1em;
+    letter-spacing: 0.7px;
   }
+}
   
   

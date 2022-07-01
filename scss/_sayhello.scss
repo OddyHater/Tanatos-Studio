@@ -33,15 +33,15 @@
     margin-bottom: 4rem;
 }
 .sayhello__form__wraper{
-    width: 100%;
-    .sayhello__form {
-        width: 100%;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 3rem 12.4rem 1fr;
-        grid-gap: 2.1rem;    
-    }
+    width: 100%;    
     margin-bottom: 9rem;
+}
+.sayhello__form {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 3rem 12.4rem 1fr;
+    grid-gap: 2.1rem;    
 }
 .form__hello__email {
     grid-column-start: 1;

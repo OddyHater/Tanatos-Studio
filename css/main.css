@@ -751,7 +751,8 @@ nav .burger__text {
   width: 100%;
   margin-bottom: 9rem;
 }
-.sayhello__form__wraper .sayhello__form {
+
+.sayhello__form {
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -907,7 +908,7 @@ footer {
   }
 }
 @media screen and (max-width: 768px) {
-  .sayhello__form form {
+  .sayhello__form {
     grid-template-rows: 1fr 1fr 3fr 1fr 1fr;
   }
 

@@ -28,8 +28,9 @@
 }
 .ourworks__gallery {
     display: grid;
+    justify-content: center;
     grid-template-columns: repeat(3, auto);
-    grid-gap: 2rem;
+    grid-gap: 1.6rem;
     margin-bottom: 6rem;
 }
 .ourworks__gallery__item {

@@ -610,8 +610,11 @@ nav .burger__text {
 
 .ourworks__gallery {
   display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   grid-template-columns: repeat(3, auto);
-  grid-gap: 2rem;
+  grid-gap: 1.6rem;
   margin-bottom: 6rem;
 }
 

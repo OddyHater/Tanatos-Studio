@@ -2,10 +2,10 @@
 
 Landing for web-studio.
 
-Adaptive and responsible site with @media. Adaptive burger menu, Product cards. 
+Adaptive and responsible site with @media. Adaptive burger menu, product cards. 
 
-stack: SASS, Vanilla JS, parcel.
+Stack: SASS, Vanilla JS, parcel.
 
-pixel perfect (psd in the root)
+Pixel perfect (psd in the root)
 
-
+Check it out: https://oddyhater.github.io/Tanatos-Studio/

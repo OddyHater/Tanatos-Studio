@@ -1,7 +1,11 @@
-# Landing
+# Tanatos-Studio
 
-Реализация тестового задания от ООО Интернет Решения(https://spb.hh.ru/employer/1642601?hhtmFrom=vacancy) на позицию HTML-верстальщика. 
+Landing for web-studio.
 
-Адаптивная, отзывчивая верстка, медиа запросы. 
-Использованы: сборщик parcel, препроцессор SCSS(SASS), JS для всплывающего меню.  
-Верстка pixel perfect по макету, прикрепленному в корне репозитория.
+Adaptive and responsible site with @media. Adaptive burger menu, Product cards. 
+
+stack: SASS, Vanilla JS, parcel.
+
+pixel perfect (psd in the root)
+
+

@@ -1,6 +1,6 @@
 # Tanatos-Studio
 
-Landing for web-studio.
+💻🟢Landing for web-studio.
 
 Adaptive and responsible site with @media. Adaptive burger menu, product cards. 
 

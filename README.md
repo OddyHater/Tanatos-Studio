@@ -1,5 +1,5 @@
 # Tanatos-Studio
-
+**project completed** <br>
 💻🟢Landing for web-studio.
 
 Adaptive and responsible site with @media. Adaptive burger menu, product cards. 
